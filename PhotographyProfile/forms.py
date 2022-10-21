@@ -27,6 +27,10 @@ class LoginForm(forms.Form):
     password = forms.PasswordInput()
 
 
+class CommentForm(forms.Form):
+    comment = forms.CharField(max_length=250)
+
+
 class ContactForm(forms.Form):
     subject = forms.CharField(max_length=100)
     message = forms.CharField(widget=forms.Textarea)
