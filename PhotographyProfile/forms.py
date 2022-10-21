@@ -21,15 +21,6 @@ class RegisterForm(UserCreationForm):
             user.save()
         return user
 
-    
-class LoginForm(forms.Form):
-    email = forms.EmailField()
-    password = forms.PasswordInput()
-
-
-class CommentForm(forms.Form):
-    comment = forms.CharField(max_length=250)
-
 
 class ContactForm(forms.Form):
     subject = forms.CharField(max_length=100)
