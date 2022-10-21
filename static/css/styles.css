@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    width: 390px;
+}
+
+header {
+    background-color: #222222;
+    position: absolute;
+    margin: auto;
+    width: inherit;
+    height: 73px;
+    top: 0;
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    width: 58px;
+    height: 54px;
+    left: 19px;
+    top: 10px;
+}
+
+.burger-menu {
+    display: inline-block;
+    position: relative;
+    left: 266px;
+    top: 7px;
+    width: 39px;
+    margin: 0;
+}
+
+.stick {
+    background-color: white;
+    width: 100%;
+    height: 4px;
+    margin: 0 0 9px;
+}
+
+.screen {
+    background-size: contain;
+    width: 100%;
+    height: 771px;
+}
+
+.home {
+    background-image: url("../img/home_background.png");
+}
+
+.contact {
+    background-image: url("../img/contact_background.png");
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    margin: 35px;
+}

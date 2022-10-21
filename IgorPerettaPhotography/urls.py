@@ -15,7 +15,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from PhotographyProfile import views
+
+app_name = 'main'
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('', views.home, name='home'),
+    path('admin/', admin.site.urls, name='admin'),
+    path('home/', views.home, name='home'),
+    path('register/', views.register_request, name='register'),
 ]
